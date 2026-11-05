@@ -309,7 +309,7 @@ html_code = """
     <!-- Phase 2: Dodging Pig -->
     <div id="phase2" class="phase">
         <div class="instruction">
-            ยืนยันตัวตนสำเร็จ! หมูดาวของแท้ 100%<br>
+            ยืนยันตัวตนสำเร็จ! มุดาวของแท้ 100%<br>
             <span style="font-size: 0.9rem; font-weight: normal; color: #666;">กดที่น้องหมูเพื่อรับของขวัญเลย!</span>
         </div>
         <!-- Button wrapped to handle absolute positioning smoothly -->
@@ -323,10 +323,10 @@ html_code = """
         <div class="premium-card">
             <div class="premium-message">
                 วันที่ <span class="highlight-date">6 พฤศจิกายน</span> เป็นวันที่ดวงดาวที่สวยที่สุดตกลงมาบนโลก... ✨<br><br>
-                สุขสันต์วันเกิดนะคะ "หมูดาว" ขอให้ปีนี้เป็นปีที่ดี มีความสุขมากๆ รอยยิ้มของหนูสว่างไสวและสวยงามเหมือนดวงดาวบนฟ้าเสมอเลยนะ<br><br>
+                สุขสันต์วันเกิดนะคะ "มุดาวสุดที่ยัก ❤️" ขอให้ปีนี้เป็นปีที่ดี มีความสุขมากๆ รอยยิ้มของมุดาวสว่างไสวและสวยงามเหมือนดวงดาวบนฟ้าเสมอเลยนะ<br><br>
                 ขอบคุณที่เกิดมาให้รักนะคะ ขอให้น่ารักแบบนี้ไปนานๆ เลย 💖
             </div>
-            <div class="signature">MooMint แฟนสุดที่ยัก ของ มุดาว</div>
+            <div class="signature">มุมิ้นแฟนสุดที่ยักของมุดาว</div>
         </div>
     </div>
 
@@ -340,7 +340,7 @@ html_code = """
         const starryBg = document.getElementById('starry-bg');
 
         // --- Phase 1 Logic: Force typing "หมูดาว" ---
-        const targetWord = "หมูดาว";
+        const targetWord = "มุดาว";
         let typeIndex = 0;
 
         // Focus input automatically if possible
